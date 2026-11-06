@@ -84,9 +84,7 @@ pip install numpy pandas matplotlib scikit-learn jupyter
 jupyter notebook code.ipynb
 ```
 
-The notebook expects the intraday source data and intermediate tables under the
-paths referenced in the first cells; these raw data files are not redistributed
-here.
+Because the raw intraday files aren't included, start from the feature-matrix cell (the one that loads tables/W.csv) and run forward — PCA, the architecture comparison, and the per-stock evaluation all reproduce from the included tables/. The earlier data-cleaning and feature-engineering cells are kept in the notebook to document how tables/ was produced, but need the raw 5-minute data to re-run.
 
 ## Background
 
